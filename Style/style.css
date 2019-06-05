@@ -3,14 +3,27 @@ body {
     font-family: verdana;
     background-color: gray;
      
+    blockquote {margin: 20px; }
+    font-family: verdana;
+    background-color: gray;
+    margin: 35px;
+    
+
 }
 
 
 h1 {
+
     font-family: verdana;
     font-size: 42.5px;
     font-style: italic;
     margin: 35px; 
+
+    blockquote {margin: 20px; }
+    font-family: verdana;
+    font-size: 42.5px;
+    font-style: italic;
+    
     border: 15px lavender; 
     padding: 10px gray; 
 
@@ -18,17 +31,22 @@ h1 {
 }
 
 h2 {
+
     margin: 20px;
+
    font-family: verdana;
 
 }
 
 main {
+
     margin: 20px
+
     font-family: verdana;
 }
 
 footer {
+
     margin: 20px; 
     font-family: verdana;
 }
