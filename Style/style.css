@@ -1,18 +1,16 @@
 body {
-    blockquote {margin: 20px; }
+    margin: 35px;
     font-family: verdana;
     background-color: gray;
-    margin: 35px;
-    
+     
 }
 
 
 h1 {
-    blockquote {margin: 20px; }
     font-family: verdana;
     font-size: 42.5px;
     font-style: italic;
-    
+    margin: 35px; 
     border: 15px lavender; 
     padding: 10px gray; 
 
@@ -20,17 +18,17 @@ h1 {
 }
 
 h2 {
-    blockquote {margin: 20px; }
+    margin: 20px;
    font-family: verdana;
 
 }
 
 main {
-    blockquote {margin: 20px; }
+    margin: 20px
     font-family: verdana;
 }
 
 footer {
-    blockquote {margin: 20px; }
+    margin: 20px; 
     font-family: verdana;
 }

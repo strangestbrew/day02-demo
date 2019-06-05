@@ -3,11 +3,14 @@
 var friendName = prompt( 'First off, what is your name?' );
 console.log( friendName );
 
-var gameCode =  confirm( "Well, " + friendName + ", do you want to play a guessing game?");
+var gameCode =  confirm( "Well, " + friendName + ", do you want to play a yes/no guessing game?");
 console.log( gameCode );
 
 //if ( gamecode ) =  true, contine with game
 //else ( gamecode ) = false, confirm "well rude" dialogue 
+
+/* var whatvar = prompt( (y/n) "question 1" ).charAt(0).toLowerCase();
+if (whatvar) !=="Y" && whatvar !=="N" ) {alert ('bad input')} */ 
 
 if ( gameCode ) { 
   var questionOne = prompt( "Do I play any musical instruments?" );
