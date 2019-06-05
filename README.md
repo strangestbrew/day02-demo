@@ -17,3 +17,12 @@ day02-demo[master]$ --set upstream origin master
 day02-demo[master]$ git push --set upstream origin master
 error: src refspec origin does not match any.
 error: failed to push some refs to 'upstream'
+
+
+day02-demo[master]$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+day02-demo[master]$
