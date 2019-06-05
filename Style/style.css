@@ -1,4 +1,5 @@
-body { 
+body {
+    blockquote {margin: 20px; }
     font-family: verdana;
     background-color: gray;
     margin: 35px;
@@ -6,21 +7,30 @@ body {
 }
 
 
-h1 { font-family: verdana;
+h1 {
+    blockquote {margin: 20px; }
+    font-family: verdana;
     font-size: 42.5px;
     font-style: italic;
+    
+    border: 15px lavender; 
+    padding: 10px gray; 
+
     
 }
 
 h2 {
+    blockquote {margin: 20px; }
    font-family: verdana;
 
 }
 
 main {
+    blockquote {margin: 20px; }
     font-family: verdana;
 }
 
 footer {
+    blockquote {margin: 20px; }
     font-family: verdana;
 }
