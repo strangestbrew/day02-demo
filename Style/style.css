@@ -1,17 +1,26 @@
-body {
-    background: aliceblue;
+body { 
+    font-family: verdana;
+    background-color: gray;
+    margin: 35px;
+    
 }
 
-h1 {
+
+h1 { font-family: verdana;
     font-size: 42.5px;
-    font-weight: bold;
+    font-style: italic;
+    
 }
 
-ul {
-    list-style-type: disc;
-    margin: 20px 40px;
+h2 {
+   font-family: verdana;
+
 }
 
-li {
-    padding: 3px;
+main {
+    font-family: verdana;
+}
+
+footer {
+    font-family: verdana;
 }
