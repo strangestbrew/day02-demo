@@ -6,12 +6,6 @@ console.log( friendName );
 var gameCode =  confirm( "Well, " + friendName + ", do you want to play a yes/no guessing game?");
 console.log( gameCode );
 
-//if ( gamecode ) =  true, contine with game
-//else ( gamecode ) = false, confirm "well rude" dialogue 
-
-/* var whatvar = prompt( (y/n) "question 1" ).charAt(0).toLowerCase();
-if (whatvar) !=="Y" && whatvar !=="N" ) {alert ('bad input')} */ 
-
 if ( gameCode ) { 
   var questionOne = prompt( "Do I play any musical instruments?" );
   var stdQuestionOne = questionOne.toLowerCase();
@@ -70,10 +64,45 @@ if ( gameCode ) {
     }  else 
     { alert ( "WRONG" ) 
     }
-                }
+} 
 
+// var statesActual = 13
+// var guessCount = 0
+// var userResponse = prompt("Can you guess how many states I've visited? It's between 1 and 20.")
+// var convertedGuess = parseInt(userResponse) 
 
-//var standardquestionTwo = questionTwo.toLowerCase();
-//if starnd === yes
-//alert( response)
-//else waherver
+// while ( guessCount !== 4 || userResponse === statesActual ) {
+//  guessCount++
+//  console.log(guessCount)
+//   if ( userResponse > statesActual ) {
+//    convertedGuess = prompt ("guess was too high")); 
+//   }  
+//   else if ( userResponse < statesActual ) {
+//     convertedGuess = prompt ("guess too low" ));
+//   }
+
+// };
+
+// var userAnswer = prompt("Can you guess any of the states I've visited?").toUpperCase();
+// var correctStates = ["alaska", "washington", "california", "oregon", "florida", "mississippi", "lousianna", "hawaii", "idaho", "nevada", "missouri", "illinois", "arizona"];
+// var guesses = 0 
+
+// while (userAnswer === correctStates || guesses <= 6) {
+//    guesses++
+//    console.log(guesses)
+//    for (var i = 0; i < correctStates.length; i++) {
+           
+//     if (userAnswer == correctStates[i]) {
+//       prompt("Great guess!");
+//       break;
+//     }
+//   }
+
+//   if ( userAnswer !== correctStates[i] ) {
+//     prompt("Try again");
+//   }
+
+//   else if (guesses >= 6) {
+//     alert(correctStates)
+//   };
+// }

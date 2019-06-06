@@ -38,10 +38,16 @@ h2 {
 
 }
 
+div {
+    margin: 100px;
+    font-family: verdana;
+    list-style-type: numbering;
+}
+
 main {
 
-    margin: 20px
-
+    margin: 20px;
+    list-style-type: disc;
     font-family: verdana;
 }
 
