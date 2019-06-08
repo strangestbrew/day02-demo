@@ -38,6 +38,10 @@ h2 {
 
 }
 
+h3 > ol {
+    list-style-type: georgian;
+}
+
 div {
     margin: 100px;
     font-family: verdana;

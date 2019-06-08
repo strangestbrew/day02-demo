@@ -16,3 +16,7 @@ To push the current branch and set the remote as upstream, use
     git push --set-upstream origin master
 
 day02-demo[master]$
+
+
+*updated 6/6/2019 1609 PST
+partner pair lab 04 with Corey Chang CF201d49
