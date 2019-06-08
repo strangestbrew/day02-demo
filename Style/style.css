@@ -1,62 +1,73 @@
-body {
-    margin: 35px;
-    font-family: verdana;
-    background-color: gray;
-     
-    blockquote {margin: 20px; }
-    font-family: verdana;
-    background-color: gray;
-    margin: 35px;
+body { 
+    margin: 50px; 
+    border: solid;
+    border-color: palevioletred;
+    padding: 25px; 
+    font-family: Verdana;
+    color: peachpuff;
+    background-image: url(../images/dark\ floral.jpg);
     
 
 }
 
-
-h1 {
-
-    font-family: verdana;
-    font-size: 42.5px;
-    font-style: italic;
-    margin: 35px; 
-
-    blockquote {margin: 20px; }
-    font-family: verdana;
-    font-size: 42.5px;
-    font-style: italic;
-    
-    border: 15px lavender; 
-    padding: 10px gray; 
-
-    
-}
-
-h2 {
-
-    margin: 20px;
-
-   font-family: verdana;
+header{
+    margin: 50px; 
+    border: solid;
+    border-color: palevioletred;
+    padding: 25px; 
+    background: black;
 
 }
+ 
+h2 { 
+    margin: 50px; 
+    border: solid;
+    border-color: palevioletred;
+    padding: 25px; 
+    background: black
 
-h3 > ol {
-    list-style-type: georgian;
-}
-
-div {
-    margin: 100px;
-    font-family: verdana;
-    list-style-type: numbering;
 }
 
 main {
+    margin: 50px; 
+    border: solid;
+    border-color: palevioletred;
+    padding: 25px; 
+    background: black
 
-    margin: 20px;
-    list-style-type: disc;
-    font-family: verdana;
+}
+
+ul {
+    margin: 50px; 
+    border: solid;
+    border-color: palevioletred;
+    padding: 25px; 
+    background: black;
+}
+
+div {margin: 50px; 
+    border: solid;
+    border-color: palevioletred;
+    padding: 25px; 
+    background: black;
+}   
+
+h3 {
+    margin: 2em;
+    border: 1em;
+    padding: 1em;
+}
+
+ol { 
+    list-style-type: georgian;
+
 }
 
 footer {
+    margin: 50px; 
+    border: solid;
+    border-color:palevioletred;
+    padding: 25px; 
+    background: black
 
-    margin: 20px; 
-    font-family: verdana;
 }
