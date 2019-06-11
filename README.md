@@ -20,3 +20,5 @@ day02-demo[master]$
 
 *updated 6/6/2019 1609 PST
 partner pair lab 04 with Corey Chang CF201d49
+Navigator: Lyndsey
+Driver: Corey

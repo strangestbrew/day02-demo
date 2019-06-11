@@ -4,7 +4,7 @@ var friendName = prompt('First off, what is your name?');
 console.log( friendName );
 alert( "Well, " + friendName + ", do you want to play a yes/no guessing game?");
 
-<<<<<<< HEAD
+//<<<<<<< HEAD
 function question1(useranswer){
   if(useranswer === 'Y'){
     return alert('Wrong');
@@ -78,7 +78,7 @@ function question2(useranswer){
 
 //starts the array guessing game (question 7 from lab 3)
 
-//var userAnswer = prompt("Can you guess any of the states I've visited?").toUpperCase();
+var userAnswer = prompt("Can you guess any of the states I've visited?").toUpperCase();
 var correctStates = ["alaska", "washington", "california", "oregon", "florida", "mississippi", "lousianna", "hawaii", "idaho", "nevada", "missouri", "illinois", "arizona"];
 
 for(var guessNumber = 0 ; guessNumber < 1; guessNumber++){
