@@ -4,7 +4,6 @@ var friendName = prompt('First off, what is your name?');
 console.log( friendName );
 alert( "Well, " + friendName + ", do you want to play a yes/no guessing game?");
 
-//<<<<<<< HEAD
 function question1(useranswer){
   if(useranswer === 'Y'){
     return alert('Wrong');
@@ -60,7 +59,7 @@ function question2(useranswer){
  var totalTries = 0
  var correctAnswer = 13
 
- while (totalTries < 4 ){
+ while (totalTries < 4) {
    console.log(guesses);
    var guesses = prompt("Can you guess how many states I've visited? It's between 1 and 20.");
  	if (parseInt(guesses) === correctAnswer) {
@@ -73,7 +72,8 @@ function question2(useranswer){
    if (guesses < "13") {
      alert("sorry, too low");
  }
- guessCounter --;
+  totalTries ++;
+  
  }
 
 //starts the array guessing game (question 7 from lab 3)
